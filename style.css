@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 16px;
+    gap: 16px;
+}
+
+.item{
+    height: 150px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 32px;
+    border-radius: 30px;
+}
+
+.texto{
+    color: black;
+    font-size: 64px;
+}
+
+.forma{
+    width: 100px;
+    height: 100px;
+    background-color: plum;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.forma0{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.vermelho{
+    background-color: blue;
+}
+
+.circulo{
+    border-radius: 50%;
+}
+
+.giro{
+    transform: rotate(180deg);
+}
+
+.imagem{
+    background-image: url("./img/images.jfif");
+    background-position: center;
+    background-size: cover;
+}
+
+.zoom{
+    scale: 1.5;
+}
+
+.sumir{
+    background-color: white;
+}
+
+.batata{
+    background-image: url("./img/batata.jfif"); 
+}
